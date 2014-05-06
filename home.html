@@ -5,16 +5,67 @@
 
         <title>antoniomb.es</title>
 
+        <link type="text/css" rel="stylesheet" href="resources/css/main.css">
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="resources/js/skrollr.min.js"></script>
+
     </head>
 
     <body>
 
+        <div id="main" class="category" data-0="top:0%;display:block;" data-1000="top:-100%;display:none;">
 
-        <a href="categories/cv/index.html">CV</a>
+            <div id="main-label" data-0="left:0%;" data-400="left:-100%;">text1</div>
 
-        <a href="categories/xperiment/index.html">xPeriments</a>
+            <h2><a href="categories/cv/index.html">Que es esto?</a></h2>
 
-        <a href="#">Blog</a>
+        </div>
+
+
+
+        <div id="whoami" class="category" data-0="top:100%;" data-800="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
+
+            <h2><a href="categories/cv/index.html">Quien soy?</a></h2>
+
+            <div id="whoami-item1" class="whoami-item" data-700="left:-100%;" data-1000="left:0%;top:100px;" data-3500="top:-400px">item1</div>
+
+            <div id="whoami-item2" class="whoami-item" data-800="right:-100%;" data-1100="right:0%;top:200px;" data-3500="top:-400px">item2</div>
+
+            <div id="whoami-item3" class="whoami-item" data-900="left:-100%;" data-1200="left:0%;top:300px;" data-3500="top:-300px">item3</div>
+
+            <div id="whoami-item4" class="whoami-item" data-1000="right:-100%;" data-1300="right:0%;top:400px;" data-3500="top:-100px">item4</div>
+
+        </div>
+
+
+        <div id="cv" class="category" data-0="display:none;" data-3000="display:block;top:100%;" data-3800="top:0%;" data-6000="display:block;" data-6700="top:-100%;display:none;">
+
+            <h2><a href="categories/cv/index.html">Que se hacer?</a></h2>
+
+        </div>
+
+        <div id="xperiments" class="category" data-0="display:none;" data-6000="display:block;top:100%;" data-6800="top:0%;" data-9000="display:block;" data-9700="top:-100%;display:none;">
+
+            <h2><a href="categories/xperiment/index.html">xPeriments</a></h2>
+
+        </div>
+
+        <div id="blog" class="category" data-0="display:none;" data-9000="display:block;top:100%;" data-9800="top:0%;" data-12000="display:block;" data-12700="top:-100%;display:none;">
+
+            <h2><a href="#">Blog</a></h2>
+
+        </div>
+
+        <div id="footer" class="category" data-0="display:none;" data-12000="display:block;top:100%;" data-12800="top:0%;" data-13000="display:block;">
+
+            <h2><a href="#">Footer</a></h2>
+
+        </div>
+
+        <script type="text/javascript">
+            var s = skrollr.init();
+        </script>
 
     </body>
 

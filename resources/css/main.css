@@ -1,0 +1,92 @@
+html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+body {
+    background-color: #a5d3e8;
+}
+
+div {
+    /*height: 1000px;*/
+    text-align: center;
+}
+
+div.category {
+    width:100%;
+    height:100%;
+    padding-top:10%;
+    text-align:center;
+    position: fixed;
+}
+
+
+/* main */
+div#main {
+
+}
+
+div#main-label {
+    position: absolute;
+    top: 200px;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+}
+
+
+/* whoami */
+div#whoami {
+
+}
+
+div.whoami-item {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+div#whoami-item1 {
+    top: 100px;
+    background-color: green;
+}
+
+div#whoami-item2 {
+    top: 500px;
+    background-color: red;
+    float: right;
+}
+
+div#whoami-item3 {
+    top: 300px;
+    background-color: yellow;
+}
+
+div#whoami-item4 {
+    top: 700px;
+    background-color: pink;
+    float: right;
+}
+
+
+/* cv */
+div#cv {
+
+}
+
+
+/* xperiments */
+div#xperiments {
+
+}
+
+
+/* blog */
+div#blog {
+
+}
